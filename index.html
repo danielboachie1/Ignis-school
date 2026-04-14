@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ignis School Nsawam — Igniting Minds, Shaping Futures</title>
+<meta name="description" content="Ignis School Nsawam — A premier general education school providing quality education in a nurturing environment. Enrol today.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ignis.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-flame">🔥</div>
+  <div class="loader-name">IGNIS <span>School</span></div>
+  <div class="loader-track"><div class="loader-fill"></div></div>
+</div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#why" onclick="closeMobile()">About</a>
+  <a href="#programmes" onclick="closeMobile()">Programmes</a>
+  <a href="#admissions" onclick="closeMobile()">Admissions</a>
+  <a href="#tour" onclick="closeMobile()">Campus</a>
+  <a href="#calculator" onclick="closeMobile()">Fees</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="#admissions" onclick="closeMobile()" style="color:var(--amber)">Enrol Now →</a>
+</div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="#" class="nav-logo">
+    <span class="nav-flame">🔥</span>
+    <span class="nav-text">IGNIS <span>School</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#why">About</a></li>
+    <li><a href="#programmes">Programmes</a></li>
+    <li><a href="#admissions">Admissions</a></li>
+    <li><a href="#tour">Campus</a></li>
+    <li><a href="#calculator">Fees</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#admissions" class="nav-enrol">Enrol Now</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-badge">Nsawam's Premier Learning Institution</div>
+      <h1 class="hero-title">
+        Igniting Minds,<br>
+        <em>Shaping Futures</em>
+        <span class="line2">One Child at a Time</span>
+      </h1>
+      <p class="hero-sub">At Ignis School, we believe every child carries a spark. Our nurturing environment, dedicated teachers, and enriching curriculum fan that spark into a brilliant flame that lights the path to lifelong success.</p>
+      <div class="hero-actions">
+        <a href="#admissions" class="btn-primary">🎓 Apply for Admission</a>
+        <a href="#tour" class="btn-ghost">🏫 Take a Virtual Tour</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-avatars">
+          <div class="trust-avatar">A</div>
+          <div class="trust-avatar">K</div>
+          <div class="trust-avatar">E</div>
+          <div class="trust-avatar">M</div>
+        </div>
+        <div class="trust-text"><strong>Trusted by 200+ families</strong><br>in and around Nsawam</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-pill fp-1">🏆 Academic Excellence</div>
+      <div class="hero-card-main">
+        <div class="hero-stat-grid">
+          <div class="hero-stat"><div class="hero-stat-num" data-count="200">0</div><div class="hero-stat-label">Happy Students</div></div>
+          <div class="hero-stat"><div class="hero-stat-num" data-count="15">0</div><div class="hero-stat-label">Qualified Teachers</div></div>
+          <div class="hero-stat"><div class="hero-stat-num" data-count="10">0</div><div class="hero-stat-label">Years of Excellence</div></div>
+          <div class="hero-stat"><div class="hero-stat-num" data-count="95">0</div><div class="hero-stat-label">% Pass Rate</div></div>
+        </div>
+        <div class="hero-card-badge">
+          <span class="badge-icon">📍</span>
+          <div class="badge-text"><strong>RMF6+73Q, Nsawam</strong>Open Mon–Sat · 7:00 AM onwards</div>
+        </div>
+      </div>
+      <div class="floating-pill fp-2">📞 0594 746 841</div>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll to explore<div class="scroll-dot"></div></div>
+</section>
+
+<!-- WHY IGNIS -->
+<section id="why">
+  <div style="text-align:center;margin-bottom:1rem" class="reveal">
+    <span class="section-label">Why Choose Us</span>
+    <h2 class="section-title">An Education That <em>Truly Matters</em></h2>
+    <p class="section-sub" style="margin:0 auto">We go beyond textbooks — nurturing character, creativity, and critical thinking in every student from day one.</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-card reveal"><div class="why-icon">👨‍🏫</div><h3>Experienced & Caring Teachers</h3><p>Our qualified educators are passionate about each child's growth, offering personalised attention in a supportive classroom environment.</p></div>
+    <div class="why-card reveal"><div class="why-icon">📚</div><h3>Holistic Curriculum</h3><p>From literacy and numeracy to arts, science, and physical education — our broad curriculum develops the whole child, not just academic scores.</p></div>
+    <div class="why-card reveal"><div class="why-icon">🏡</div><h3>Safe & Nurturing Environment</h3><p>We maintain a safe, structured, and positive school community where every student feels seen, valued, and motivated to thrive daily.</p></div>
+    <div class="why-card reveal"><div class="why-icon">🌱</div><h3>Character Development</h3><p>Beyond academics, we instill discipline, respect, leadership, and integrity — values that shape children into responsible citizens of tomorrow.</p></div>
+    <div class="why-card reveal"><div class="why-icon">🤝</div><h3>Parent Partnership</h3><p>We believe parents are co-educators. Regular feedback, open days, and transparent communication keep families deeply involved in their child's journey.</p></div>
+    <div class="why-card reveal"><div class="why-icon">🔥</div><h3>The Ignis Difference</h3><p>Our name means fire — and we ignite a lifelong love of learning in every child. Our graduates carry that flame into secondary school and beyond.</p></div>
+  </div>
+</section>
+
+<!-- PROGRAMMES -->
+<section id="programmes">
+  <div class="reveal" style="margin-bottom:1rem">
+    <span class="section-label">Our Programmes</span>
+    <h2 class="section-title">Learning for <em>Every Stage</em></h2>
+    <p class="section-sub">From the earliest years to upper primary, we provide age-appropriate, engaging education that meets every child where they are.</p>
+  </div>
+  <div class="prog-grid reveal">
+    <div class="prog-card prog-1">
+      <div class="prog-bg"></div>
+      <div class="prog-overlay"></div>
+      <div class="prog-icon">🌸</div>
+      <div class="prog-content">
+        <div class="prog-level">Ages 3 – 5</div>
+        <h3>Kindergarten</h3>
+        <p>Play-based learning that builds social skills, curiosity, and early literacy foundations.</p>
+      </div>
+    </div>
+    <div class="prog-card prog-2">
+      <div class="prog-bg"></div>
+      <div class="prog-overlay"></div>
+      <div class="prog-icon">✏️</div>
+      <div class="prog-content">
+        <div class="prog-level">Ages 6 – 9</div>
+        <h3>Lower Primary</h3>
+        <p>Core literacy, numeracy, and discovery learning in a structured yet joyful classroom.</p>
+      </div>
+    </div>
+    <div class="prog-card prog-3">
+      <div class="prog-bg"></div>
+      <div class="prog-overlay"></div>
+      <div class="prog-icon">🔬</div>
+      <div class="prog-content">
+        <div class="prog-level">Ages 10 – 12</div>
+        <h3>Upper Primary</h3>
+        <p>Deeper academic challenges, critical thinking, and preparation for junior high school.</p>
+      </div>
+    </div>
+    <div class="prog-card prog-4">
+      <div class="prog-bg"></div>
+      <div class="prog-overlay"></div>
+      <div class="prog-icon">⭐</div>
+      <div class="prog-content">
+        <div class="prog-level">All Levels</div>
+        <h3>After-School & Clubs</h3>
+        <p>Sports, arts, debate, and enrichment clubs to develop talent beyond the classroom.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="stats-grid">
+    <div class="stat-item reveal"><div class="stat-num" data-count="200">0</div><div class="stat-label">Enrolled Students</div></div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal"><div class="stat-num" data-count="15">0</div><div class="stat-label">Qualified Teachers</div></div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal"><div class="stat-num" data-count="95">0</div><div class="stat-label">% Promotion Rate</div></div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal"><div class="stat-num" data-count="10">0</div><div class="stat-label">Years of Excellence</div></div>
+  </div>
+</section>
+
+<!-- ADMISSIONS -->
+<section id="admissions">
+  <div class="admission-wrap">
+    <div class="reveal-left">
+      <span class="section-label">Admissions</span>
+      <h2 class="section-title">Join the Ignis <em>Family</em></h2>
+      <p class="section-sub">Enrolling your child at Ignis is simple and straightforward. We walk alongside you every step of the way.</p>
+      <div class="steps-list">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-body"><h4>Submit Enquiry</h4><p>Fill in the quick form on this page or call us directly. We'll reach out within 24 hours.</p></div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-body"><h4>Schedule a School Visit</h4><p>Come see the campus, meet teachers, and ask all your questions in person or via phone tour.</p></div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-body"><h4>Submit Documents</h4><p>Birth certificate, past school reports (if any), and passport photos — we'll guide you through exactly what's needed.</p></div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-body"><h4>Complete Enrolment</h4><p>Pay your registration fee, collect your child's supplies list, and welcome them to Ignis School!</p></div>
+        </div>
+      </div>
+      <div style="margin-top:2rem">
+        <a href="tel:0594746841 class="btn-primary">📞 Call Admissions Office</a>
+      </div>
+    </div>
+
+    <div class="enrol-form reveal-right">
+      <div id="formContent">
+        <h3>Request Information</h3>
+        <p>Fill in your details and our admissions team will be in touch within 24 hours.</p>
+        <div class="form-row">
+          <div class="form-group"><label>Parent / Guardian Name *</label><input type="text" id="parentName" placeholder="e.g. Abena Mensah"></div>
+          <div class="form-group"><label>Phone Number *</label><input type="tel" id="phone" placeholder="e.g. 024 000 0000"></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Child's Name *</label><input type="text" id="childName" placeholder="e.g. Kofi Mensah"></div>
+          <div class="form-group"><label>Child's Age *</label><select id="childAge"><option value="">Select age</option><option>3 years</option><option>4 years</option><option>5 years</option><option>6 years</option><option>7 years</option><option>8 years</option><option>9 years</option><option>10 years</option><option>11 years</option><option>12 years</option></select></div>
+        </div>
+        <div class="form-group"><label>Programme of Interest</label><select id="programme"><option value="">Select programme</option><option>Kindergarten (Ages 3–5)</option><option>Lower Primary (Ages 6–9)</option><option>Upper Primary (Ages 10–12)</option><option>After-School Programme</option><option>Not sure — please advise</option></select></div>
+        <div class="form-group"><label>How did you hear about us?</label><select id="source"><option value="">Select source</option><option>Google / Online Search</option><option>Social Media</option><option>Friend or Family Referral</option><option>Driving Past the School</option><option>Other</option></select></div>
+        <div class="form-group"><label>Any Questions or Special Notes?</label><textarea id="notes" placeholder="Any special needs, questions, or things we should know..."></textarea></div>
+        <button class="form-submit" onclick="submitEnquiry()">🎓 &nbsp; Submit Enquiry</button>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <span class="success-icon">🎉</span>
+        <h3>Enquiry Received!</h3>
+        <p>Thank you! Our admissions team will contact you within 24 hours. We can't wait to welcome your child to the Ignis family.</p>
+        <br>
+        <a href="tel:0594746841" class="btn-primary" style="display:inline-flex;margin-top:.5rem">📞 Call Us Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIRTUAL TOUR -->
+<section id="tour">
+  <div class="tour-inner">
+    <div class="reveal-left">
+      <span class="section-label" style="color:var(--amber)">Virtual Campus Tour</span>
+      <h2 class="tour-title">See Our <em>Vibrant Campus</em> Before You Visit</h2>
+      <p class="tour-sub">Can't make it in person right away? Explore our classrooms, library, playground, and more — right from your screen.</p>
+      <div class="tour-features">
+        <div class="tour-feature">Bright, spacious and well-ventilated classrooms</div>
+        <div class="tour-feature">Dedicated library and reading corner</div>
+        <div class="tour-feature">Safe outdoor playground and sports area</div>
+        <div class="tour-feature">Science and creative arts activity rooms</div>
+        <div class="tour-feature">Clean sanitation facilities</div>
+      </div>
+      <a href="tel:0594746841" class="btn-primary">📅 Book an In-Person Visit</a>
+    </div>
+    <div class="tour-mockup reveal-right">
+      <div class="tour-mockup-header">
+        <div class="mockup-dot"></div><div class="mockup-dot"></div><div class="mockup-dot"></div>
+      </div>
+      <div class="tour-rooms">
+        <div class="room-card"><div class="room-bg r1"></div><div class="room-emoji">📚</div><div class="room-label">Library</div></div>
+        <div class="room-card"><div class="room-bg r2"></div><div class="room-emoji">🎨</div><div class="room-label">Art Room</div></div>
+        <div class="room-card"><div class="room-bg r3"></div><div class="room-emoji">🔬</div><div class="room-label">Science</div></div>
+        <div class="room-card"><div class="room-bg r4"></div><div class="room-emoji">🏃</div><div class="room-label">Playground</div></div>
+        <div class="room-card"><div class="room-bg r5"></div><div class="room-emoji">✏️</div><div class="room-label">Classrooms</div></div>
+        <div class="room-card"><div class="room-bg r6"></div><div class="room-emoji">🍱</div><div class="room-label">Dining Area</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="reveal" style="margin-bottom:1rem">
+    <span class="section-label">Parent Reviews</span>
+    <h2 class="section-title">Voices of Our <em>School Community</em></h2>
+    <p class="section-sub">Don't just take our word for it — hear from the families who have trusted Ignis School with their most precious treasure.</p>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card featured reveal">
+      <span class="quote">"</span>
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-text">My daughter has blossomed since joining Ignis. Her teachers know her by name, understand her strengths, and have turned a shy child into a confident, curious learner. I could not be more grateful.</p>
+      <div class="testi-author"><div class="testi-avatar" style="background:var(--amber)">A</div><div><div class="testi-name" style="color:var(--white)">Abena Darko</div><div class="testi-role">Parent — KG 2</div></div></div>
+    </div>
+    <div class="testi-card reveal">
+      <span class="quote">"</span>
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-text">The communication from the school is exceptional. I always know what my son is learning and how he's progressing. The teachers genuinely care and it shows in his attitude toward school every morning.</p>
+      <div class="testi-author"><div class="testi-avatar">K</div><div><div class="testi-name">Kwabena Asante</div><div class="testi-role">Parent — Primary 3</div></div></div>
+    </div>
+    <div class="testi-card reveal">
+      <span class="quote">"</span>
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-text">We moved from Accra and were worried about finding a good school in Nsawam. Ignis exceeded every expectation. The environment is clean, structured, and my children love going to school every day.</p>
+      <div class="testi-author"><div class="testi-avatar">E</div><div><div class="testi-name">Esi Nyarko</div><div class="testi-role">Parent — Primary 1 &amp; 4</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TUITION CALCULATOR -->
+<section id="calculator">
+  <div class="calc-wrap">
+    <div class="reveal-left">
+      <span class="section-label">Fee Calculator</span>
+      <h2 class="section-title">Estimate Your <em>Investment</em></h2>
+      <p class="section-sub" style="margin-bottom:1.5rem">Quality education doesn't have to be out of reach. Use our fee estimator to understand the cost of an Ignis education — and reach out to discuss flexible payment options.</p>
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:.8rem">
+        <li style="display:flex;gap:.7rem;align-items:center;font-size:.9rem;color:var(--text-2)"><span style="color:var(--amber);font-weight:700">✓</span> Flexible termly payment plans available</li>
+        <li style="display:flex;gap:.7rem;align-items:center;font-size:.9rem;color:var(--text-2)"><span style="color:var(--amber);font-weight:700">✓</span> Sibling discounts for multiple enrolments</li>
+        <li style="display:flex;gap:.7rem;align-items:center;font-size:.9rem;color:var(--text-2)"><span style="color:var(--amber);font-weight:700">✓</span> Scholarship opportunities for exceptional students</li>
+        <li style="display:flex;gap:.7rem;align-items:center;font-size:.9rem;color:var(--text-2)"><span style="color:var(--amber);font-weight:700">✓</span> No hidden charges — full transparency</li>
+      </ul>
+      <div style="margin-top:2rem"><a href="#admissions" class="btn-primary">🎓 Apply for Admission</a></div>
+    </div>
+    <div class="calc-box reveal-right">
+      <div class="calc-title">Fee Estimator</div>
+      <div class="calc-sub">Get an approximate fee breakdown based on your selections below.</div>
+      <div class="calc-group">
+        <label>Programme Level</label>
+        <select id="calcLevel" onchange="calcFees()">
+          <option value="kg">Kindergarten (Ages 3–5)</option>
+          <option value="lower">Lower Primary (Ages 6–9)</option>
+          <option value="upper">Upper Primary (Ages 10–12)</option>
+        </select>
+      </div>
+      <div class="calc-group">
+        <label>Number of Children: <strong id="numLabel">1</strong></label>
+        <input type="range" id="numChildren" min="1" max="4" value="1" oninput="updateRange(this);calcFees()">
+        <div class="range-labels"><span>1 child</span><span>4 children</span></div>
+      </div>
+      <div class="calc-group">
+        <label>Payment Plan</label>
+        <select id="calcPlan" onchange="calcFees()">
+          <option value="term">Per Term</option>
+          <option value="annual">Full Year (5% discount)</option>
+        </select>
+      </div>
+      <div class="calc-result">
+        <div class="calc-result-label">Estimated Fee</div>
+        <div class="calc-result-amount" id="calcAmount">GH₵ 850</div>
+        <div class="calc-result-note">*Indicative only. Contact us for exact pricing and available discounts.</div>
+      </div>
+      <div class="calc-cta"><a href="tel:0594746841">📞 Call for Exact Fees & Payment Plans</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-wrap">
+    <div class="reveal-left">
+      <span class="section-label">FAQ</span>
+      <h2 class="section-title">Questions <em>Parents</em> Often Ask</h2>
+      <p class="section-sub" style="margin-bottom:2rem">Can't find what you're looking for? Our admissions team is always happy to chat.</p>
+      <a href="tel:0594746841" class="btn-primary">📞 Speak to Admissions</a>
+      <div style="margin-top:1rem">
+        <a href="https://wa.me/233594746841" target="_blank" style="display:inline-flex;align-items:center;gap:.5rem;color:var(--green);text-decoration:none;font-weight:600;font-size:.9rem">💬 WhatsApp Us Instead →</a>
+      </div>
+    </div>
+    <div class="faq-list reveal-right">
+      <div class="faq-item open"><div class="faq-q" onclick="toggleFaq(this)"><h3>What age does Ignis School start from?</h3><div class="faq-icon">+</div></div><div class="faq-a"><p>We welcome children from age 3 in our Kindergarten programme, all the way through to Primary 6 (age 12). We believe in starting early to build a strong foundation.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h3>What is the school's academic calendar?</h3><div class="faq-icon">+</div></div><div class="faq-a"><p>Ignis School follows the Ghana Education Service academic calendar, with three terms per year. School hours are typically 7:00 AM to 2:00 PM, with after-school options available.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h3>Are the teachers qualified and trained?</h3><div class="faq-icon">+</div></div><div class="faq-a"><p>Yes. All our teachers hold professional teaching qualifications and undergo regular professional development training. We believe a school is only as strong as its educators.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h3>Is there a school uniform?</h3><div class="faq-icon">+</div></div><div class="faq-a"><p>Yes, Ignis School has an official uniform. Details, sizes, and where to purchase are provided at the time of enrolment. The uniform is affordable and readily available.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h3>Do you offer school transportation?</h3><div class="faq-icon">+</div></div><div class="faq-a"><p>We are working to provide transport arrangements for certain routes. Please contact the admissions office to discuss your location and available options.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h3>How do I visit the school?</h3><div class="faq-icon">+</div></div><div class="faq-a"><p>Simply call us on 030 291 3951 or fill in the enquiry form above to schedule a visit. We welcome parents to come see the school, meet our staff, and ask all their questions.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST / ACCREDITATION -->
+<section id="trust">
+  <div class="trust-inner">
+    <div class="reveal">
+      <span class="section-label" style="justify-content:center">Why Trust Ignis</span>
+      <h2 class="trust-title">A School Built on <em>Trust & Standards</em></h2>
+    </div>
+    <div class="trust-badges reveal">
+      <div class="trust-badge"><span class="trust-badge-icon">🏫</span><div class="trust-badge-text"><strong>GES Recognised</strong><span>Ghana Education Service</span></div></div>
+      <div class="trust-badge"><span class="trust-badge-icon">👨‍🏫</span><div class="trust-badge-text"><strong>Certified Teachers</strong><span>All staff are professionally qualified</span></div></div>
+      <div class="trust-badge"><span class="trust-badge-icon">🛡️</span><div class="trust-badge-text"><strong>Child-Safe School</strong><span>Secure environment with trained staff</span></div></div>
+      <div class="trust-badge"><span class="trust-badge-icon">📊</span><div class="trust-badge-text"><strong>95% Promotion Rate</strong><span>Students advance year on year</span></div></div>
+      <div class="trust-badge"><span class="trust-badge-icon">❤️</span><div class="trust-badge-text"><strong>200+ Trusted Families</strong><span>And growing every term</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-grid">
+    <div class="reveal-left">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="contact-info" style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3vw,2.5rem);font-weight:700;color:var(--navy);margin-bottom:1rem;line-height:1.2">We'd Love to <em style="color:var(--amber);font-style:italic">Hear From You</em></h2>
+      <p style="color:var(--text-2);line-height:1.75;margin-bottom:1.5rem">Whether you have a question, want to book a visit, or are ready to enrol — our team is here for you Monday through Saturday.</p>
+      <div class="contact-item"><div class="contact-icon">📞</div><div><a href="tel:0594746841">059 474 6841</a><span>Call the admissions office</span></div></div>
+      <div class="contact-item"><div class="contact-icon">📍</div><div><a href="https://maps.google.com/?q=RMF6+73Q+Nsawam" target="_blank">RMF6+73Q, Nsawam</a><span>Get directions on Google Maps</span></div></div>
+      <div class="contact-item"><div class="contact-icon">🕐</div><div><span style="color:var(--navy);font-weight:500">Mon – Sat: 7:00 AM onwards</span><span>School days follow the GES calendar</span></div></div>
+      <a href="https://maps.google.com/?q=RMF6+73Q+Nsawam" target="_blank" class="map-placeholder">
+        <span style="font-size:2rem">🗺️</span>
+        <span>Click to view on Google Maps</span>
+        <span style="font-size:.75rem;color:var(--text-3)">RMF6+73Q, Nsawam</span>
+      </a>
+      <a href="https://wa.me/233594746841?text=Hello!%20I'd%20like%20to%20enquire%20about%20Ignis%20School%20Nsawam." target="_blank" class="wa-contact">
+        <span>💬</span>
+        <div><strong>Chat on WhatsApp</strong><small>Message us and we'll reply shortly</small></div>
+      </a>
+    </div>
+    <div class="reveal-right">
+      <div class="enrol-form">
+        <h3>Book a School Visit</h3>
+        <p>Choose a convenient time and we'll make sure you get a warm welcome.</p>
+        <div class="form-row">
+          <div class="form-group"><label>Your Name *</label><input type="text" id="visitName" placeholder="e.g. Kwame Boateng"></div>
+          <div class="form-group"><label>Phone Number *</label><input type="tel" id="visitPhone" placeholder="e.g. 020 000 0000"></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Preferred Date</label><input type="date" id="visitDate"></div>
+          <div class="form-group"><label>Preferred Time</label><select id="visitTime"><option value="">Select time</option><option>7:30 AM – 9:00 AM</option><option>10:00 AM – 12:00 PM</option><option>1:00 PM – 2:30 PM</option></select></div>
+        </div>
+        <div class="form-group"><label>What would you like to see?</label><textarea id="visitNote" placeholder="e.g. classrooms, meet teachers, learn about fees..." style="min-height:70px"></textarea></div>
+        <button class="form-submit" onclick="submitVisit()">🏫 &nbsp; Book My Visit</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo-wrap">
+        <span style="font-size:1.4rem">🔥</span>
+        <span style="font-family:'Syne',sans-serif;font-size:1.2rem;color:var(--white);letter-spacing:.1em;text-transform:uppercase">IGNIS <span style="color:var(--amber)">School</span></span>
+      </div>
+      <p>Igniting minds and shaping futures in Nsawam since our founding. A place where every child's potential is discovered, nurtured, and celebrated.</p>
+      <div class="footer-social">
+        <a href="https://facebook.com" target="_blank" class="f-social">f</a>
+        <a href="https://instagram.com" target="_blank" class="f-social" style="font-style:italic;font-family:serif">i</a>
+        <a href="https://wa.me/2333594746841" target="_blank" class="f-social" style="color:#25D366">W</a>
+        <a href="https://twitter.com" target="_blank" class="f-social">𝕏</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#why">About Ignis</a></li>
+        <li><a href="#programmes">Programmes</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#tour">Campus Tour</a></li>
+        <li><a href="#calculator">Fee Estimator</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Programmes</h4>
+      <ul>
+        <li><a href="#programmes">Kindergarten</a></li>
+        <li><a href="#programmes">Lower Primary</a></li>
+        <li><a href="#programmes">Upper Primary</a></li>
+        <li><a href="#programmes">After-School Clubs</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:0594746841">📞 059 474 6841</a></li>
+        <li><a href="https://wa.me/2333594746841" target="_blank">💬 WhatsApp</a></li>
+        <li style="color:rgba(255,255,255,.4)">RMF6+73Q, Nsawam</li>
+        <li style="color:rgba(255,255,255,.4)">Mon–Sat: 7:00 AM+</li>
+        <li style="margin-top:.5rem"><a href="https://maps.google.com/?q=RMF6+73Q+Nsawam" target="_blank">📍 Get Directions</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Ignis School, Nsawam. All rights reserved.</p>
+    <ul class="footer-bottom-links">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+    </ul>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="float-group">
+  <div class="float-btn-wrap">
+    <span class="float-label">Admissions Chatbot</span>
+    <a href="#" class="float-btn" style="background:var(--navy);color:var(--amber);border:2px solid var(--amber)" id="chatToggle" onclick="toggleChat(event)">🎓</a>
+  </div>
+  <div class="float-btn-wrap">
+    <span class="float-label">Chat on WhatsApp</span>
+    <a href="https://wa.me/233594746841?text=Hello!%20I'd%20like%20to%20know%20more%20about%20Ignis%20School." target="_blank" class="float-btn float-wa">💬</a>
+  </div>
+  <div class="float-btn-wrap">
+    <span class="float-label">Call Admissions</span>
+    <a href="tel:0594746841" class="float-btn float-enrol">📞</a>
+  </div>
+</div>
+
+<!-- CHATBOT -->
+<div class="chatbot" id="chatbot">
+  <div class="chat-header">
+    <div class="chat-avatar">🔥</div>
+    <div><h4>Ignis Admissions</h4><p>Ask us anything about enrolment</p></div>
+    <button class="chat-close" onclick="toggleChat(event)">✕</button>
+  </div>
+  <div class="chat-body">
+    <div class="chat-bubble">👋 Hello! Welcome to Ignis School. I'm here to help with your questions about enrolment, fees, and programmes. What would you like to know?</div>
+    <div class="chat-options">
+      <button class="chat-opt" onclick="chatMsg('How do I enrol my child?')">🎓 How do I enrol my child?</button>
+      <button class="chat-opt" onclick="chatMsg('What are the school fees?')">💰 What are the school fees?</button>
+      <button class="chat-opt" onclick="chatMsg('I\'d like to book a school visit')">🏫 Book a school visit</button>
+      <button class="chat-opt" onclick="chatMsg('What programmes do you offer?')">📚 What programmes do you offer?</button>
+    </div>
+    <a href="https://wa.me/233594746841?text=Hello!%20I'd%20like%20to%20learn%20more%20about%20Ignis%20School." target="_blank" class="chat-start">💬 Continue on WhatsApp</a>
+  </div>
+</div>
+<script src="ignis.js"></script>
+<!-- 233302913951  , 0302913951   -->
+</body>
+</html>
