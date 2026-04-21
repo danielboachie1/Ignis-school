@@ -34,6 +34,8 @@ body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--white);color:va
 nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 5%;display:flex;align-items:center;height:78px;transition:all .4s ease;}
 nav.scrolled{background:rgba(12,27,58,.97);backdrop-filter:blur(12px);box-shadow:0 2px 30px rgba(0,0,0,.2);}
 .nav-logo{display:flex;align-items:center;gap:.7rem;text-decoration:none;}
+.logo-img {height: 45px;width: auto;object-fit: contain;display: block;}
+.nav.scrolled .logo-img {height: 38px;transition: height 0.4s ease;} 
 .nav-flame{font-size:1.6rem;animation:flameDance 2s ease-in-out infinite alternate;}
 .nav-text{font-family:'Syne',sans-serif;font-size:1.3rem;color:var(--white);letter-spacing:.08em;text-transform:uppercase;}
 .nav-text span{color:var(--amber);}
@@ -204,14 +206,15 @@ h2.section-title em{font-style:italic;color:var(--amber);}
 .room-card{border-radius:8px;overflow:hidden;cursor:pointer;position:relative;aspect-ratio:4/3;}
 .room-bg{width:100%;height:100%;transition:transform .4s;}
 .room-card:hover .room-bg{transform:scale(1.1);}
-.r1{background:linear-gradient(135deg,#1a2a4a,#243560);} 
-.r2{background:linear-gradient(135deg,#2a3a1a,#3a5020);}
-.r3{background:linear-gradient(135deg,#3a1a1a,#522020);}
-.r4{background:linear-gradient(135deg,#1a1a3a,#252550);}
-.r5{background:linear-gradient(135deg,#2a2a1a,#3a3a20);}
-.r6{background:linear-gradient(135deg,#1a3a3a,#205050);}
+.r1{background-image:url(School\ image.png);background-size:cover; background-position: center;} 
+.r2{background-image:url(Children.png);background-size:cover; background-position: center;}
+.r3{background-image:url(Classroom.png);background-size:cover; background-position: center;}
+.r4{background-image:url(Playground.png);background-size:cover; background-position: center;}
+.r5{background-image:url(Classroom.png);background-size:cover; background-position: center;}
+.r6{background-image:url(School\ image1.png);background-size:cover; background-position: center;}
+/* .r6{background:linear-gradient(135deg,#1a3a3a,#205050);} */
 .room-label{position:absolute;bottom:0;left:0;right:0;padding:.5rem;background:linear-gradient(to top,rgba(0,0,0,.8),transparent);font-size:.72rem;color:rgba(255,255,255,.8);text-align:center;}
-.room-emoji{position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);font-size:1.8rem;opacity:.5;}
+/* .room-emoji{position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);font-size:1.8rem;opacity:.5;} */
 
 /* ── TESTIMONIALS ── */
 #testimonials{padding:7rem 8%;background:var(--white);}
