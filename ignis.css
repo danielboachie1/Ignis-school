@@ -207,7 +207,7 @@ h2.section-title em{font-style:italic;color:var(--amber);}
 .room-bg{width:100%;height:100%;transition:transform .4s;}
 .room-card:hover .room-bg{transform:scale(1.1);}
 .r1{background-image:url(School\ image.png);background-size:cover; background-position: center;} 
-.r2{background-image:url(Children.png);background-size:cover; background-position: center;}
+.r2{background-image:url(Arts.png);background-size:cover; background-position: center;}
 .r3{background-image:url(Classroom.png);background-size:cover; background-position: center;}
 .r4{background-image:url(Playground.png);background-size:cover; background-position: center;}
 .r5{background-image:url(Classroom.png);background-size:cover; background-position: center;}
